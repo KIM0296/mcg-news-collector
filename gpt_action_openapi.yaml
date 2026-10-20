@@ -1,12 +1,12 @@
 # MCG 주간 브리프 GPT > 구성 > 작업(Actions) > 새 작업 만들기 > 스키마에 붙여 넣기
-# {OWNER}/{REPO} 를 실제 GitHub 저장소 이름으로 바꾸세요. 인증: 없음(공개 저장소 기준)
+# 인증: 없음(공개 저장소). 저장소를 MCG 계정으로 이전하면 아래 주소의 KIM0296 부분만 새 계정 이름으로 바꾸세요.
 openapi: 3.1.0
 info:
   title: MCG 주간 원자력 기사 DB
   version: "1.0"
   description: 매주 자동 수집된 KAIF·WNN·K-NEISS 원자력 기사 목록
 servers:
-  - url: https://raw.githubusercontent.com/{OWNER}/{REPO}/main
+  - url: https://raw.githubusercontent.com/KIM0296/mcg-news-collector/main
 paths:
   /data/latest.json:
     get:
