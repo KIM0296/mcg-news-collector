@@ -1,0 +1,18 @@
+{
+ "week_start": "2026-10-12",
+ "week_end": "2026-10-18",
+ "count": 64,
+ "sources": {
+  "kaif": "40건",
+  "wnn": "24건",
+  "kneiss": "설정 전(건너뜀)"
+ },
+ "parts": [
+  "https://kim0296.github.io/mcg-news-collector/part-1.json",
+  "https://kim0296.github.io/mcg-news-collector/part-2.json",
+  "https://kim0296.github.io/mcg-news-collector/part-3.json",
+  "https://kim0296.github.io/mcg-news-collector/part-4.json",
+  "https://kim0296.github.io/mcg-news-collector/part-5.json"
+ ],
+ "how_to_read": "parts의 주소를 차례로 모두 열어 articles를 합치면 전체 목록이 된다"
+}

@@ -62,8 +62,38 @@ a{{color:#801A86;word-break:break-all}} .btn{{display:inline-block;background:#8
 </body></html>
 """
     open(os.path.join(docs_dir, "index.html"), "w", encoding="utf-8").write(page)
+    _write_parts(d, docs_dir)
     open(os.path.join(docs_dir, ".nojekyll"), "w").write("")
     print(f"게시 페이지 생성: {docs_dir}/index.html ({d['count']}건)")
+
+
+PART_SIZE = 15
+SITE = "https://kim0296.github.io/mcg-news-collector/"
+
+
+def _write_parts(d, docs_dir):
+    """GPT 웹 기능이 한 번에 읽을 수 있도록 15건씩 나눈 작은 파일과 목차(meta.json)를 만든다."""
+    arts = d["articles"]
+    parts = []
+    for n, k in enumerate(range(0, len(arts), PART_SIZE), 1):
+        chunk = []
+        for i, a in enumerate(arts[k:k + PART_SIZE], k + 1):
+            row = {"ID": f"A{i:02d}"}
+            row.update(a)
+            chunk.append(row)
+        name = f"part-{n}.json"
+        with open(os.path.join(docs_dir, name), "w", encoding="utf-8") as f:
+            json.dump({"part": n, "articles": chunk}, f, ensure_ascii=False, separators=(",", ":"))
+        parts.append(SITE + name)
+    meta = {"week_start": d["week_start"], "week_end": d["week_end"], "count": d["count"],
+            "sources": d.get("sources", {}), "parts": parts,
+            "how_to_read": "parts의 주소를 차례로 모두 열어 articles를 합치면 전체 목록이 된다"}
+    with open(os.path.join(docs_dir, "meta.json"), "w", encoding="utf-8") as f:
+        json.dump(meta, f, ensure_ascii=False, indent=1)
+    # 이전 주에 남은 part 파일 정리
+    for fn in os.listdir(docs_dir):
+        if fn.startswith("part-") and fn.endswith(".json") and SITE + fn not in parts:
+            os.remove(os.path.join(docs_dir, fn))
 
 
 if __name__ == "__main__":
