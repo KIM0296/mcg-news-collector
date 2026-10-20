@@ -31,10 +31,12 @@ jobs:
           else
             python collect.py --out data
           fi
+      - name: 웹페이지 생성
+        run: python publish_page.py
       - name: 결과 저장
         run: |
           git config user.name "mcg-collector"
           git config user.email "actions@users.noreply.github.com"
-          git add data
+          git add data docs
           git commit -m "주간 기사 수집 $(date +%Y-%m-%d)" || echo "변경 없음"
           git push
