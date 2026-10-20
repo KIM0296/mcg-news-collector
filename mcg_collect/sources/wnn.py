@@ -4,6 +4,7 @@
 기사마다 제목·분류·발행시각·첫 문단 요약(og:description)을 읽는다.
 """
 import datetime as dt
+import html as _html
 import re
 
 from bs4 import BeautifulSoup
@@ -27,12 +28,21 @@ def list_articles(fetcher, start, end):
     return urls
 
 
+def _clean(text):
+    """HTML 기호(&#39; &nbsp; 등)와 끝의 ';' 찌꺼기를 정리한다."""
+    for _ in range(2):
+        text = _html.unescape(text)
+    text = text.replace("\xa0", " ")
+    text = re.sub(r"\s+", " ", text).strip()
+    return re.sub(r"[\s;]+$", "", text)
+
+
 def parse_article(html, url):
     s = BeautifulSoup(html, "html.parser")
 
     def meta(prop):
         m = s.find("meta", attrs={"property": prop}) or s.find("meta", attrs={"name": prop})
-        return (m.get("content") or "").strip() if m else ""
+        return _clean(m.get("content") or "") if m else ""
 
     title = meta("og:title") or (s.find("h1").get_text(strip=True) if s.find("h1") else "")
     published = meta("article:published_time")[:10]
