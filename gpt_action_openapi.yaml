@@ -1,0 +1,39 @@
+# MCG 주간 브리프 GPT > 구성 > 작업(Actions) > 새 작업 만들기 > 스키마에 붙여 넣기
+# {OWNER}/{REPO} 를 실제 GitHub 저장소 이름으로 바꾸세요. 인증: 없음(공개 저장소 기준)
+openapi: 3.1.0
+info:
+  title: MCG 주간 원자력 기사 DB
+  version: "1.0"
+  description: 매주 자동 수집된 KAIF·WNN·K-NEISS 원자력 기사 목록
+servers:
+  - url: https://raw.githubusercontent.com/{OWNER}/{REPO}/main
+paths:
+  /data/latest.json:
+    get:
+      operationId: getLatestArticles
+      summary: 가장 최근 주의 수집 기사 목록을 가져온다
+      responses:
+        "200":
+          description: 기사 목록
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  week_start: {type: string}
+                  week_end: {type: string}
+                  count: {type: integer}
+                  sources: {type: object}
+                  articles:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        구분: {type: string}
+                        보도일자: {type: string}
+                        매체명: {type: string}
+                        제목: {type: string}
+                        핵심 키워드: {type: string}
+                        관련국가: {type: string}
+                        원문링크: {type: string}
+                        원문 요약: {type: string}

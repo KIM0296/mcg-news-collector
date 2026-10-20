@@ -1,0 +1,40 @@
+# 매주 월요일 오전 7시(한국시간)에 지난주 기사를 수집해 data/ 폴더에 저장합니다.
+# GitHub 저장소 > Actions 탭에서 "Run workflow" 버튼으로 바로 실행할 수도 있습니다.
+name: weekly-collect
+on:
+  schedule:
+    - cron: "0 22 * * 0"        # UTC 일요일 22:00 = 한국 월요일 07:00
+  workflow_dispatch:
+    inputs:
+      week:
+        description: "수집할 주의 날짜 (YYYY-MM-DD, 비우면 지난주)"
+        required: false
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt && python -m playwright install --with-deps chromium
+      - name: 수집
+        env:
+          KNEISS_ID: ${{ secrets.KNEISS_ID }}
+          KNEISS_PW: ${{ secrets.KNEISS_PW }}
+        run: |
+          if [ -n "${{ github.event.inputs.week }}" ]; then
+            python collect.py --out data --week "${{ github.event.inputs.week }}"
+          else
+            python collect.py --out data
+          fi
+      - name: 결과 저장
+        run: |
+          git config user.name "mcg-collector"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git commit -m "주간 기사 수집 $(date +%Y-%m-%d)" || echo "변경 없음"
+          git push

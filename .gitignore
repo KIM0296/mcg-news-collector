@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+fixtures/
+결과/
+.cache/
