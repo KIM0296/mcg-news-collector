@@ -1,0 +1,422 @@
+{
+ "week_start": "2026-05-04",
+ "week_end": "2026-05-10",
+ "count": 41,
+ "sources": {
+  "kaif": "22건",
+  "wnn": "19건",
+  "kneiss": "설정 전(건너뜀)"
+ },
+ "articles": [
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.05.04",
+   "매체명": "KBS",
+   "제목": "국제원자력산업전 상담 470건…지난해 3배 성과",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://n.news.naver.com/mnews/article/056/0012174279?sid=101",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.05.04",
+   "매체명": "한국일보",
+   "제목": "울진 한울원전3호기, 계획예방정비 마치고 발전 재개",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.hankookilbo.com/news/article/A2026050308570000007?did=GO",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.05.04",
+   "매체명": "중앙일보",
+   "제목": "에너지원·공급망 다변화, 해외 자원 개발·투자 늘려야",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://n.news.naver.com/mnews/article/025/0003520433?sid=110",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.05.04",
+   "매체명": "에너지안전신문",
+   "제목": "12차 전력수급기본계획, 국가 산업 전략도가 돼야 한다",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.esnews.kr/news/articleView.html?idxno=3702",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.05.04",
+   "매체명": "대한전설건문신문",
+   "제목": "K-건설의 새 성장동력은 ‘원전’",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.koscaj.com/news/articleView.html?idxno=323894",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.05.04",
+   "매체명": "청년일보",
+   "제목": "우리를 지키는 보이지 않는 약속…'알라라 원칙'",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.youthdaily.co.kr/news/article.html?no=218573",
+   "원문 요약": ""
+  },
+  {
+   "구분": "세계기사",
+   "보도일자": "2026.05.04",
+   "매체명": "세계일보",
+   "제목": "‘탈원전’에서 ‘친(親)원전’으로… 벨기에, 원전 국유화 추진",
+   "핵심 키워드": "",
+   "관련국가": "벨기에",
+   "원문링크": "https://n.news.naver.com/mnews/article/022/0004125099?sid=104",
+   "원문 요약": ""
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.05",
+   "매체명": "World Nuclear News",
+   "제목": "Ship modified for transport of used MOX fuel",
+   "핵심 키워드": "",
+   "관련국가": "",
+   "원문링크": "https://world-nuclear-news.org/articles/ship-modified-for-transport-of-used-mox-fuel",
+   "원문 요약": "Pacific Nuclear Transport Limited&#39;s Pacific Grebe ship is the first of its fleet to be adapted to carry a new flask for the transportation of used mixed oxide fuel.\r\n&nbsp;;"
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.05",
+   "매체명": "World Nuclear News",
+   "제목": "Brookfield and The Nuclear Company target VC Summer project",
+   "핵심 키워드": "",
+   "관련국가": "",
+   "원문링크": "https://world-nuclear-news.org/articles/brookfield-and-the-nuclear-company-target-vcsummer",
+   "원문 요약": "A joint venture established by&nbsp;global investment firm Brookfield and nuclear project development and delivery company The Nuclear Company is to project manage the completion of the two VC Summer AP1000 units in South Carolina.\r\n;"
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.05",
+   "매체명": "World Nuclear News",
+   "제목": "Norwegian municipalities initiate investigation work",
+   "핵심 키워드": "",
+   "관련국가": "노르웨이",
+   "원문링크": "https://world-nuclear-news.org/articles/norwegian-municipalities-initiate-investigation-work",
+   "원문 요약": "Several municipalities in Norway that have submitted proposals to the Ministry of Energy for possible nuclear power plants based on small modular reactors have decided to initiate investigation work for the projects and prepare technical reports that will form the basis for future licence applications.\r\n&nbsp;;"
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.05",
+   "매체명": "World Nuclear News",
+   "제목": "US companies come together for 'gas-plus-nuclear' solution",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://world-nuclear-news.org/articles/us-companies-come-together-for-gas-plus-nuclear-solution",
+   "원문 요약": "Blue Energy has announced it is partnering with GE Vernova in a collaboration aimed at pairing nuclear and gas-fired generating capacity as a near-term approach to meeting AI-driven energy demand.\r\n;"
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.05",
+   "매체명": "World Nuclear News",
+   "제목": "Blykalla and ABB enhance cooperation",
+   "핵심 키워드": "",
+   "관련국가": "스웨덴",
+   "원문링크": "https://world-nuclear-news.org/articles/blykalla-and-abb-enhance-cooperation",
+   "원문 요약": "Swedish lead-cooled small modular reactor technology developer Blykalla and global engineering company ABB have signed a Joint Development Agreement, marking a significant step forward in their collaboration and formally advancing their partnership.\r\n&nbsp;;"
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.05",
+   "매체명": "World Nuclear News",
+   "제목": "Key AERB approval issued for Kudankulam 5 and 6",
+   "핵심 키워드": "",
+   "관련국가": "인도",
+   "원문링크": "https://world-nuclear-news.org/articles/key-aerb-approval-issued-for-kudankulam-5-and-6",
+   "원문 요약": "India&#39;s Atomic Energy Regulatory Board has issued permission for the installation of major equipment, including the reactor pressure vessel, steam generators and coolant pumps, at Kudankulam nuclear power plant units 5 and 6.\r\n&nbsp;;"
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.05.06",
+   "매체명": "한국경제",
+   "제목": "한국 첫 연구용 원자로, 64년 만에 역사 속으로",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://n.news.naver.com/mnews/article/015/0005283281?sid=105",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.05.06",
+   "매체명": "KBS",
+   "제목": "원자력환경공단, 방폐장 표층처분시설 점검",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://n.news.naver.com/mnews/article/056/0012174566?sid=105",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.05.06",
+   "매체명": "서울경제",
+   "제목": "원전 수출 ‘한전’ 중심으로…‘원전수출진흥법’ 제정 추진",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://n.news.naver.com/mnews/article/011/0004617678?sid=101",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.05.06",
+   "매체명": "조선비즈",
+   "제목": "베트남 원전 시장에 눈 돌린 팀코리아… 日 포기한 닌투언 2호기 수주에 총력",
+   "핵심 키워드": "",
+   "관련국가": "일본",
+   "원문링크": "https://n.news.naver.com/mnews/article/366/0001161824?sid=101",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.05.06",
+   "매체명": "원자력신문",
+   "제목": "한국원자력학회, ‘2026 춘계학술발표회’ 팡파르",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.knpnews.com/news/articleView.html?idxno=33702",
+   "원문 요약": ""
+  },
+  {
+   "구분": "세계기사",
+   "보도일자": "2026.05.06",
+   "매체명": "중앙일보",
+   "제목": "땅속에 사용후핵연료 밀봉…주민합의 이뤄낸 핀란드의 교훈",
+   "핵심 키워드": "",
+   "관련국가": "핀란드",
+   "원문링크": "https://n.news.naver.com/mnews/article/025/0003521225?sid=101",
+   "원문 요약": ""
+  },
+  {
+   "구분": "세계기사",
+   "보도일자": "2026.05.06",
+   "매체명": "에너지안전신문",
+   "제목": "中 원전 비용 美 4분의 1… 글로벌 에너지 안보 흔든다",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://www.esnews.kr/news/articleView.html?idxno=3730",
+   "원문 요약": ""
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.06",
+   "매체명": "World Nuclear News",
+   "제목": "Fuel loading completed at two new Chinese units",
+   "핵심 키워드": "",
+   "관련국가": "중국",
+   "원문링크": "https://world-nuclear-news.org/articles/fuel-loading-completed-at-two-new-chinese-units",
+   "원문 요약": "The initial loading of fuel assemblies into the cores of Taipingling unit 2 and Changjiang unit 3 - both Hualong One (HPR1000) reactors - has been completed ahead of their start-ups.\r\n&nbsp;;"
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.06",
+   "매체명": "World Nuclear News",
+   "제목": "Urenco’s Capenhurst site produces LEU+ in first trial run",
+   "핵심 키워드": "",
+   "관련국가": "영국",
+   "원문링크": "https://world-nuclear-news.org/articles/urencos-capenhurst-site-produces-leu-in-first-trial-run",
+   "원문 요약": "Urenco has completed its first trial production run for LEU+ fuel at its Capenhurst facility in the UK, with plans to make it commercially available &quot;in the near future&quot;.\r\n&nbsp;;"
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.06",
+   "매체명": "World Nuclear News",
+   "제목": "British-US consortium aims to build UK fusion plant",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://world-nuclear-news.org/articles/british-us-consortium-aims-to-build-uk-fusion-plant",
+   "원문 요약": "US fusion energy developer Type One Energy, Britain&#39;s Tokamak Energy, and US construction engineering firm AECOM have formed the UK Infinity Fusion Consortium to pursue development of the first private-sector-led fusion power plant project in the UK.\r\n&nbsp;;"
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.05.07",
+   "매체명": "에너지플랫폼뉴스",
+   "제목": "원자력산업협회·원자력학회, SMR 개발·사업 활성화 방안 마련 모색",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.e-platform.net/news/articleView.html?idxno=102035",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.05.07",
+   "매체명": "에너지안전신문",
+   "제목": "원자력산업협회, 2026년 원전해체 심화과정 교육생 모집",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.esnews.kr/news/articleView.html?idxno=3764",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.05.07",
+   "매체명": "에너지신문",
+   "제목": "“원전도 AI시대”...미래 원자력, 인공지능이 재편한다",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.energy-news.co.kr/news/articleView.html?idxno=225191",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.05.07",
+   "매체명": "전기신문",
+   "제목": "투자모델로 재편된 美 대형원전 시장…좁아지는 韓 역할",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://www.electimes.com/news/articleView.html?idxno=367681",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.05.07",
+   "매체명": "에너지경제",
+   "제목": "마찰의 실종",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.ekn.kr/web/view.php?key=20260506025093608",
+   "원문 요약": ""
+  },
+  {
+   "구분": "세계기사",
+   "보도일자": "2026.05.07",
+   "매체명": "연합뉴스",
+   "제목": "일본 원전 가동률 3년째 최고치 경신",
+   "핵심 키워드": "",
+   "관련국가": "일본",
+   "원문링크": "https://n.news.naver.com/mnews/article/001/0016061982?sid=104",
+   "원문 요약": ""
+  },
+  {
+   "구분": "세계기사",
+   "보도일자": "2026.05.07",
+   "매체명": "글로벌이코노믹",
+   "제목": "130억 달러 '원전 승부수' 던진 방글라데시, LNG 의존 끊고 '첨단 제조국' 도약",
+   "핵심 키워드": "",
+   "관련국가": "방글라데시",
+   "원문링크": "https://www.g-enews.com/view.php?ud=202605070627213151fbbec65dfb_1",
+   "원문 요약": ""
+  },
+  {
+   "구분": "세계기사",
+   "보도일자": "2026.05.07",
+   "매체명": "에너지안전신문",
+   "제목": "미 DOE, 알로-X 안전성 승인… 차세대 원전 가동 초읽기",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://www.esnews.kr/news/articleView.html?idxno=3781",
+   "원문 요약": ""
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.07",
+   "매체명": "World Nuclear News",
+   "제목": "Licensing of US pilot SMRs advances",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://world-nuclear-news.org/articles/licensing-of-us-pilot-smrs-advances",
+   "원문 요약": "The US Department of Energy&#39;s Idaho Operations Office has approved the Documented Safety Analysis for Aalo Atomics&#39; Aalo-X experimental reactor. Meanwhile, the US Nuclear Regulatory Commission has approved the Principal Design Criteria topical report for Oklo&#39;s Aurora powerhouse.\r\n&nbsp;;"
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.07",
+   "매체명": "World Nuclear News",
+   "제목": "Innovative thorium-based fuel concludes irradiation campaign",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://world-nuclear-news.org/articles/innovative-thorium-based-fuel-concludes-irradiation-campaign",
+   "원문 요약": "Nuclear fuel company Clean Core Thorium Energy announced its patented ANEEL fuel has successfully reached more than 60 GWd/MTU of burnup in the Advanced Test Reactor at Idaho National Laboratory.\r\n&nbsp;;"
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.07",
+   "매체명": "World Nuclear News",
+   "제목": "Italy, UK enhance cooperation on decommissioning",
+   "핵심 키워드": "",
+   "관련국가": "영국",
+   "원문링크": "https://world-nuclear-news.org/articles/italy-uk-enhance-cooperation-on-decommissioning",
+   "원문 요약": "Italy&#39;s Societa Gestione Impianti Nucleari SpA has signed a memorandum of understanding with the UK&#39;s Nuclear Decommissioning Authority to launch a joint effort on decommissioning techniques for graphite-moderated nuclear power reactors.\r\n&nbsp;;"
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.07",
+   "매체명": "World Nuclear News",
+   "제목": "Permission granted for commissioning work on Akkuyu 2",
+   "핵심 키워드": "",
+   "관련국가": "튀르키예",
+   "원문링크": "https://world-nuclear-news.org/articles/permission-granted-for-commissioning-work-on-akkuyu-2",
+   "원문 요약": "Turkey&#39;s nuclear regulator has granted a permit for commissioning work to take place on the second unit at the Akkuyu Nuclear Power Plant.\r\n&nbsp;;"
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.07",
+   "매체명": "World Nuclear News",
+   "제목": "'Robust demand in nuclear' helps Solstice to strong start",
+   "핵심 키워드": "",
+   "관련국가": "",
+   "원문링크": "https://world-nuclear-news.org/articles/robust-demand-in-nuclear-helps-solstice-to-strong-start",
+   "원문 요약": "Solstice Advanced Materials, which was spun off from Honeywell last year, has seen its nuclear revenues increase 27% in the first quarter of 2026. Meanwhile, ConverDyn, the marketing agent for Solstice&#39;s uranium hexafluoride production, has agreed to supply uranium conversion services to micromodular reactor company Hadron Energy Inc.\r\n&nbsp;;"
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.08",
+   "매체명": "World Nuclear News",
+   "제목": "USA and Japan mark historic HALEU shipment",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://world-nuclear-news.org/articles/usa-and-japan-mark-historic-haleu-shipment",
+   "원문 요약": "The cooperative effort to transfer 1.7 tonnes of high-assay low-enriched uranium - HALEU - fuel from Japan to the USA has been hailed as a pivotal step in reducing nuclear proliferation risks and enhancing global security while supporting the US domestic supply chain.\r\n&nbsp;;"
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.08",
+   "매체명": "World Nuclear News",
+   "제목": "USA to examine SMRs for commercial shipping",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://world-nuclear-news.org/articles/usa-to-examine-smrs-for-commercial-shipping",
+   "원문 요약": "The US Department of Transportation&#39;s Maritime Administration agency has launched an initiative to develop small modular reactors for use in commercial shipping.\r\n&nbsp;;"
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.08",
+   "매체명": "World Nuclear News",
+   "제목": "Concreting completed of Kursk II's third reactor building foundation",
+   "핵심 키워드": "",
+   "관련국가": "러시아",
+   "원문링크": "https://world-nuclear-news.org/articles/concreting-of-kursk-iis-third-reactor-building-foundation-completed",
+   "원문 요약": "Rosatom says that the pouring of concrete for the foundation of the third unit at Kursk II nuclear power plant has been completed ahead of schedule.\r\n&nbsp;;"
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.08",
+   "매체명": "World Nuclear News",
+   "제목": "Site of Polish plant deemed suitable",
+   "핵심 키워드": "",
+   "관련국가": "폴란드",
+   "원문링크": "https://world-nuclear-news.org/articles/site-of-polish-plant-deemed-suitable",
+   "원문 요약": "The Lubiatowo-Kopalino site is a suitable location for Poland&#39;s first nuclear power plant, the president of the National Atomic Energy Agency has determined after examining the Preliminary Site Report for the facility.\r\n&nbsp;;"
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.05.08",
+   "매체명": "World Nuclear News",
+   "제목": "Funding boost for Bruce C pre-development work",
+   "핵심 키워드": "",
+   "관련국가": "캐나다",
+   "원문링크": "https://world-nuclear-news.org/articles/bruce-c-gets-funding-for-pre-development-work",
+   "원문 요약": "Ontario&#39;s government has announced a cost-sharing and recovery agreement enabling Bruce Power to move ahead with an estimated CAD300 million (USD220 million) of pre-development work for the Bruce C new nuclear project.\r\n&nbsp;;"
+  }
+ ]
+}
