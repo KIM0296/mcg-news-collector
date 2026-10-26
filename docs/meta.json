@@ -1,10 +1,10 @@
 {
- "week_start": "2026-10-12",
- "week_end": "2026-10-18",
- "count": 64,
+ "week_start": "2026-10-19",
+ "week_end": "2026-10-25",
+ "count": 70,
  "sources": {
-  "kaif": "40건",
-  "wnn": "24건",
+  "kaif": "54건",
+  "wnn": "19건",
   "kneiss": "설정 전(건너뜀)"
  },
  "parts": [
