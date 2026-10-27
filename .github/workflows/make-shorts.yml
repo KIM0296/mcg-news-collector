@@ -1,0 +1,46 @@
+# shorts/ 폴더에 쇼츠 대본 엑셀(MCG_Shorts_YYYYMMDD.xlsx)을 올리면 쇼츠 영상 5개를 만들어
+# 저장소의 Releases(릴리스)에 올립니다. 로그인 없이 누구나 내려받을 수 있습니다.
+name: make-shorts
+on:
+  push:
+    paths:
+      - "shorts/*.xlsx"
+  workflow_dispatch:
+    inputs:
+      file:
+        description: "만들 대본 파일 이름 (예: MCG_Shorts_20261026.xlsx, 비우면 가장 최근 파일)"
+        required: false
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: 준비
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk ffmpeg >/dev/null
+          pip install -q requests openpyxl pillow numpy
+      - name: 대본 파일 고르기
+        id: pick
+        run: |
+          if [ -n "${{ github.event.inputs.file }}" ]; then F="shorts/${{ github.event.inputs.file }}"; else F=$(ls -t shorts/MCG_Shorts_*.xlsx | head -1); fi
+          echo "file=$F" >> "$GITHUB_OUTPUT"
+          D=$(basename "$F" | grep -oE '[0-9]{8}')
+          echo "date=$D" >> "$GITHUB_OUTPUT"
+          echo "대본: $F"
+      - name: 영상 만들기
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: python shorts_maker/render_shorts.py "${{ steps.pick.outputs.file }}" out
+      - name: 릴리스에 올리기
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="shorts-${{ steps.pick.outputs.date }}"
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "쇼츠 ${{ steps.pick.outputs.date }}" --notes "MCG 원자력 정책 동향 쇼츠 (자동 생성). 검토 후 업로드하세요."
+          gh release upload "$TAG" out/*.mp4 "${{ steps.pick.outputs.file }}" --clobber
