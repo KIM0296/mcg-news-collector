@@ -35,6 +35,7 @@ jobs:
           echo "대본: $F"
       - name: 영상 만들기
         env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: python shorts_maker/render_shorts.py "${{ steps.pick.outputs.file }}" out
       - name: 릴리스에 올리기

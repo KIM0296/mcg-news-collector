@@ -5,5 +5,5 @@
 3. 5~10분 뒤 저장소 오른쪽의 **Releases**에 `쇼츠 YYYYMMDD`가 생기고, 영상 5개(mp4)를 내려받을 수 있습니다.
    - 바로가기: https://github.com/KIM0296/mcg-news-collector/releases
 
-- 자료 영상: 저장소 Settings → Secrets → `PEXELS_API_KEY`가 있으면 Pexels 무료 영상을 자동으로 넣고, 없으면 남색 그라데이션 배경으로 만듭니다.
+- 자료 영상을 찾는 순서: ① `shorts_maker/assets/clips`의 MCG 자체 모음(파일 이름이 검색어와 맞는 것) ② Pixabay(Settings → Secrets의 `PIXABAY_API_KEY`) ③ Pexels(`PEXELS_API_KEY`) ④ 모두 없으면 남색 그라데이션 배경
 - 배경음악: 저작권 걱정 없는 잔잔한 음악을 자동 합성합니다. 원하는 음악이 있으면 `shorts_maker/assets/bgm.mp3`로 올리면 그걸 씁니다(저작권 확인 필수).

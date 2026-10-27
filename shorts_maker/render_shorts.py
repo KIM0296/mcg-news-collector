@@ -171,39 +171,105 @@ def draw_outro(pub):
 
 # ---------- 자료 영상 (Pexels) ----------
 class ClipSource:
+    """자료 영상·사진 찾기. 순서: ① MCG 자체 모음(assets/clips) ② Pixabay ③ Pexels ④ 없음(남색 배경)"""
+    MEDIA_EXT = (".mp4", ".mov", ".jpg", ".jpeg", ".png", ".webp")
+
     def __init__(self, cache_dir):
-        self.key = os.environ.get("PEXELS_API_KEY", "").strip()
+        self.pixabay = os.environ.get("PIXABAY_API_KEY", "").strip()
+        self.pexels = os.environ.get("PEXELS_API_KEY", "").strip()
         self.cache = cache_dir
         os.makedirs(cache_dir, exist_ok=True)
         self.used = set()
+        lib = os.path.join(ASSETS, "clips")
+        self.library = sorted(glob.glob(os.path.join(lib, "**", "*"), recursive=True)) if os.path.isdir(lib) else []
+        self.library = [f for f in self.library if f.lower().endswith(self.MEDIA_EXT)]
+
+    def describe(self):
+        parts = []
+        if self.library:
+            parts.append(f"자체 모음 {len(self.library)}개")
+        if self.pixabay:
+            parts.append("Pixabay")
+        if self.pexels:
+            parts.append("Pexels")
+        return " + ".join(parts) or "없음(남색 배경)"
+
+    @staticmethod
+    def _tokens(text):
+        return {w for w in re.split(r"[^0-9a-zA-Z가-힣]+", (text or "").lower()) if len(w) >= 2}
+
+    def from_library(self, query):
+        """파일 이름에 검색어 단어가 가장 많이 들어 있는 자료를 고른다. 예: cooling-tower_냉각탑.mp4"""
+        q = self._tokens(query)
+        if not q or not self.library:
+            return None
+        best, score = None, 0
+        for f in self.library:
+            name = self._tokens(os.path.splitext(os.path.basename(f))[0])
+            sc = len(q & name) - (0.5 if f in self.used else 0)
+            if sc > score:
+                best, score = f, sc
+        if best:
+            self.used.add(best)
+        return best
+
+    def _download(self, url, name):
+        path = os.path.join(self.cache, name)
+        if not os.path.exists(path):
+            with requests.get(url, stream=True, timeout=120) as resp:
+                resp.raise_for_status()
+                with open(path, "wb") as out:
+                    for chunk in resp.iter_content(1 << 20):
+                        out.write(chunk)
+        return path
+
+    def from_pixabay(self, query):
+        r = requests.get("https://pixabay.com/api/videos/",
+                         params={"key": self.pixabay, "q": query, "per_page": 10, "safesearch": "true"}, timeout=30)
+        r.raise_for_status()
+        for h in r.json().get("hits", []):
+            vid = f"pixabay_{h['id']}"
+            if vid in self.used:
+                continue
+            v = h.get("videos", {})
+            f = v.get("medium") or v.get("large") or v.get("small")
+            if not f or not f.get("url"):
+                continue
+            self.used.add(vid)
+            return self._download(f["url"], vid + ".mp4")
+        return None
+
+    def from_pexels(self, query):
+        r = requests.get("https://api.pexels.com/videos/search",
+                         params={"query": query, "orientation": "landscape", "size": "medium", "per_page": 8},
+                         headers={"Authorization": self.pexels}, timeout=30)
+        r.raise_for_status()
+        for v in r.json().get("videos", []):
+            vid = f"pexels_{v['id']}"
+            if vid in self.used:
+                continue
+            files = [f for f in v.get("video_files", []) if f.get("file_type") == "video/mp4" and (f.get("width") or 0) >= 1280]
+            if not files:
+                continue
+            self.used.add(vid)
+            return self._download(sorted(files, key=lambda f: f["width"])[0]["link"], vid + ".mp4")
+        return None
 
     def get(self, query):
-        """검색어에 맞는 자료 영상 파일 경로. 키가 없거나 못 찾으면 None."""
-        if not self.key or not query:
+        if not query:
             return None
-        try:
-            r = requests.get("https://api.pexels.com/videos/search",
-                             params={"query": query, "orientation": "landscape", "size": "medium", "per_page": 8},
-                             headers={"Authorization": self.key}, timeout=30)
-            r.raise_for_status()
-            for v in r.json().get("videos", []):
-                if v["id"] in self.used:
-                    continue
-                files = [f for f in v.get("video_files", []) if f.get("file_type") == "video/mp4" and (f.get("width") or 0) >= 1280]
-                if not files:
-                    continue
-                f = sorted(files, key=lambda f: f["width"])[0]
-                path = os.path.join(self.cache, f"pexels_{v['id']}.mp4")
-                if not os.path.exists(path):
-                    with requests.get(f["link"], stream=True, timeout=120) as resp:
-                        resp.raise_for_status()
-                        with open(path, "wb") as out:
-                            for chunk in resp.iter_content(1 << 20):
-                                out.write(chunk)
-                self.used.add(v["id"])
-                return path
-        except Exception as e:
-            print(f"    자료 영상 검색 실패({query}): {e}")
+        hit = self.from_library(query)
+        if hit:
+            return hit
+        for name, fn, key in (("Pixabay", self.from_pixabay, self.pixabay), ("Pexels", self.from_pexels, self.pexels)):
+            if not key:
+                continue
+            try:
+                hit = fn(query)
+                if hit:
+                    return hit
+            except Exception as ex:
+                print(f"    {name} 검색 실패({query}): {ex}")
         return None
 
 
@@ -287,7 +353,11 @@ def _gradient():
 
 def render_segment(frame_png, clip, sec, out):
     vh = VIDEO_BOTTOM - VIDEO_TOP
-    if clip:
+    if clip and clip.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):   # 사진: 천천히 옆으로 흘림
+        inputs = ["-loop", "1", "-framerate", str(FPS), "-i", clip]
+        vid = (f"[1:v]scale={int(W * 1.15)}:{int(vh * 1.15)}:force_original_aspect_ratio=increase,"
+               f"crop={W}:{vh}:x='(iw-ow)*t/{max(sec, 1)}':y='(ih-oh)/2',setsar=1[v]")
+    elif clip:
         inputs = ["-stream_loop", "-1", "-i", clip]
         vid = f"[1:v]scale={W}:{vh}:force_original_aspect_ratio=increase,crop={W}:{vh},setsar=1,fps={FPS}[v]"
     else:   # 자료 영상이 없으면 미리 그린 남색 그라데이션을 천천히 흘려보냄
@@ -344,7 +414,7 @@ def main(xlsx, out_dir):
     os.makedirs(out_dir, exist_ok=True)
     cache = os.path.join(tempfile.gettempdir(), "mcg_clips")
     src = ClipSource(cache)
-    print(f"쇼츠 {len(data['shorts'])}개, 발행일 {pub}, 자료 영상: {'Pexels' if src.key else '없음(단색 배경)'}")
+    print(f"쇼츠 {len(data['shorts'])}개, 발행일 {pub}, 자료 영상: {src.describe()}")
     outs = []
     for n, short in enumerate(data["shorts"], 1):
         clips = {}
