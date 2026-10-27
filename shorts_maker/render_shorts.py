@@ -84,6 +84,9 @@ def load_script(xlsx_path):
         shorts.append({"title1": t.group(1) if t else "", "title2": t.group(2) if t else "",
                        "highlight": [h.strip() for h in (hl.group(1) if hl else "").split(",") if h.strip()],
                        "lines": lines})
+    if not shorts or not any(sh["lines"] for sh in shorts):
+        raise SystemExit(f"[형식 오류] {os.path.basename(xlsx_path)}: 쇼츠 대본 형식(시트 '목록·쇼츠1~5·_data')이 아닙니다. "
+                         f"지금 시트: {wb.sheetnames}. 플러그인에서 '쇼츠 다시'를 입력해 다시 만든 엑셀을 올려 주세요.")
     return {"pub_date": str(pub), "shorts": shorts}
 
 
