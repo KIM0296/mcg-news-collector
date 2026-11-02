@@ -1,0 +1,852 @@
+{
+ "week_start": "2026-10-26",
+ "week_end": "2026-11-01",
+ "count": 84,
+ "sources": {
+  "kaif": "61건",
+  "wnn": "25건",
+  "kneiss": "설정 전(건너뜀)"
+ },
+ "articles": [
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.26",
+   "매체명": "뉴시스",
+   "제목": "韓수주 '체코 원전' 인허가 절차 개시",
+   "핵심 키워드": "",
+   "관련국가": "체코",
+   "원문링크": "https://www.newsis.com/view/NISX20261022_0003837295",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.26",
+   "매체명": "에너지데일리",
+   "제목": "[국감] “원전 PPA, ‘신중’이 아닌 ‘불허’가 바람직하다”",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.energydaily.co.kr/news/articleView.html?idxno=204362",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.26",
+   "매체명": "뉴시스",
+   "제목": "태양광·원전 늘어도 전기 보낼 길이 없다…전력망 준공 '지지부진",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.newsis.com/view/NISX20261023_0003838683",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.26",
+   "매체명": "프라임경제",
+   "제목": "영덕군, 원전·재생에너지 결합해 미래 에너지산업 대전환 나선다",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.newsprime.co.kr/news/article/?no=752242",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.10.26",
+   "매체명": "아주경제",
+   "제목": "건식 저장시설, 설득보다 먼저 해야 할 일",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.ajunews.com/view/20261023094928376",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.10.26",
+   "매체명": "산경e뉴스",
+   "제목": "원전은 짓는데, 사용후핵연료는 어디로 가는가",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.skenews.kr/news/articleView.html?idxno=53262",
+   "원문 요약": ""
+  },
+  {
+   "구분": "세계기사",
+   "보도일자": "2026.10.26",
+   "매체명": "연합뉴스",
+   "제목": "IAEA \"2060년 원자력발전 수요 3배로 급증…AI 확산 영향 \"",
+   "핵심 키워드": "",
+   "관련국가": "국제기구",
+   "원문링크": "https://www.yna.co.kr/view/AKR20261024020100009?input=1195m",
+   "원문 요약": ""
+  },
+  {
+   "구분": "세계기사",
+   "보도일자": "2026.10.26",
+   "매체명": "연합뉴스",
+   "제목": "핀란드, '세계 최초' 사용후핵연료 최종 처분시설 운영 허가",
+   "핵심 키워드": "",
+   "관련국가": "핀란드",
+   "원문링크": "https://www.yna.co.kr/view/AKR20261024002000098?input=1195m",
+   "원문 요약": ""
+  },
+  {
+   "구분": "세계기사",
+   "보도일자": "2026.10.26",
+   "매체명": "에너지안전신문",
+   "제목": "영국, 원전 수출 전략 바꾼다…113개 기업·기관 앞세워 ‘원전 전주기 시장’ 공략",
+   "핵심 키워드": "",
+   "관련국가": "영국",
+   "원문링크": "https://www.esnews.kr/news/articleView.html?idxno=6996",
+   "원문 요약": ""
+  },
+  {
+   "구분": "세계기사",
+   "보도일자": "2026.10.26",
+   "매체명": "에너지안전신문",
+   "제목": "호주 원전 금지 논쟁 재점화…국민 63% “원자력발전 검토해야”",
+   "핵심 키워드": "",
+   "관련국가": "호주",
+   "원문링크": "https://www.esnews.kr/news/articleView.html?idxno=6989",
+   "원문 요약": ""
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.26",
+   "매체명": "World Nuclear News",
+   "제목": "Tilted fuel assembly retrieved from Palisades plant",
+   "핵심 키워드": "",
+   "관련국가": "",
+   "원문링크": "https://world-nuclear-news.org/articles/tilted-fuel-assembly-retrieved-from-palisades-plant",
+   "원문 요약": "Holtec International's operation to retrieve the fuel assembly from the plant in Michigan was completed using a purpose-built machine that was conceived, engineered, manufactured and delivered in just two weeks."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.26",
+   "매체명": "World Nuclear News",
+   "제목": "Regulatory milestone for US laser enrichment plant",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://world-nuclear-news.org/articles/regulatory-milestone-for-us-laser-enrichment-plant",
+   "원문 요약": "The US regulator has issued its Final Environmental Impact Statement for Global Laser Enrichment's Paducah Laser Enrichment Facility, recommending that a construction and operation licence is issued for the proposed plant."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.26",
+   "매체명": "World Nuclear News",
+   "제목": "Studsvik's waste treatment technology heads to Fukushima",
+   "핵심 키워드": "",
+   "관련국가": "일본",
+   "원문링크": "https://world-nuclear-news.org/articles/studsviks-waste-treatment-technology-heads-to-fukushima",
+   "원문 요약": "Swedish nuclear technical services provider Studsvik is to provide Japanese nuclear engineering start-up ReNu Industries Inc with technical information and advice on design conditions for a Japanese version of inDRUM, its patented technology for the treatment of problematic radioactive wastes."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.26",
+   "매체명": "World Nuclear News",
+   "제목": "First reactor unit launched on <i>Chukotka</i> icebreaker",
+   "핵심 키워드": "",
+   "관련국가": "",
+   "원문링크": "https://world-nuclear-news.org/articles/first-reactor-unit-launched-on-chukotka-icebreaker",
+   "원문 요약": "The starboard reactor unit on the new Chukotka nuclear-powered icebreaker has been brought to minimum controlled power level."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.26",
+   "매체명": "World Nuclear News",
+   "제목": "Preparations for advanced nuclear at ports should begin now, study concludes",
+   "핵심 키워드": "",
+   "관련국가": "영국",
+   "원문링크": "https://world-nuclear-news.org/articles/preparations-for-advanced-nuclear-at-ports-should-begin-now-study-concludes",
+   "원문 요약": "Ports should begin structured planning for advanced nuclear technology now, treating it as a long-term infrastructure and operating-model question rather than a new marine fuel, according to a new joint paper from the British Ports Association and Lloyd's Register."
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.27",
+   "매체명": "기후에너지환경부",
+   "제목": "(설명) 원전 PPA에 대해 수용 곤란하다는 기존 입장에 변화없음",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.korea.kr/briefing/actuallyView.do?newsId=148974308",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.27",
+   "매체명": "전기신문",
+   "제목": "원전 30기 묶어 ‘차액계약’…전력시장 대수술",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.electimes.com/news/articleView.html?idxno=373874",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.27",
+   "매체명": "아시아경제",
+   "제목": "그로시 IAEA 사무총장, 韓 원자력 장관회의 불참",
+   "핵심 키워드": "",
+   "관련국가": "국제기구",
+   "원문링크": "https://view.asiae.co.kr/article/2026102615421365518",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.27",
+   "매체명": "문화일보",
+   "제목": "SMR 공급망 표준화 등 모색… 30여개국 원자력장관급 인천에 모인다",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.munhwa.com/article/11626495",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.27",
+   "매체명": "이투데이",
+   "제목": "드론 테러 원천 차단…월성원자력본부, 통합 대드론 방어체계 선제 구축",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.etoday.co.kr/news/view/2640075",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.27",
+   "매체명": "원자력신문",
+   "제목": "(인터뷰) 대한민국 원자력 안전 파수꾼 한국원자력기술(주) 고병령 회장",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.knpnews.com/news/articleView.html?idxno=34736",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.27",
+   "매체명": "에너지신문",
+   "제목": "韓-美 원전 협력·APR1400 미국 진출 과제 논의한다",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://www.energy-news.co.kr/news/articleView.html?idxno=229257",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.10.27",
+   "매체명": "데일리안",
+   "제목": "원자력 PPA, 바른 질문이 바른 정책을 만든다",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.dailian.co.kr/news/view/1706189/%EA%B8%B0%EA%B3%A0-%EC%9B%90%EC%9E%90%EB%A0%A5-PPA-%EB%B0%94%EB%A5%B8-%EC%A7%88%EB%AC%B8-%EC%A0%95%EC%B1%85-2026",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.10.27",
+   "매체명": "한국경제",
+   "제목": "韓·英 원전 협력으로 에너지안보 강화해야",
+   "핵심 키워드": "",
+   "관련국가": "영국",
+   "원문링크": "https://www.hankyung.com/article/2026102659521",
+   "원문 요약": ""
+  },
+  {
+   "구분": "세계기사",
+   "보도일자": "2026.10.27",
+   "매체명": "뉴스1",
+   "제목": "日후쿠시마 원전 오염수 25차 방류…내달 13일까지 7800톤 규모",
+   "핵심 키워드": "",
+   "관련국가": "일본",
+   "원문링크": "https://www.news1.kr/world/asia-australia/6332135",
+   "원문 요약": ""
+  },
+  {
+   "구분": "세계기사",
+   "보도일자": "2026.10.27",
+   "매체명": "에너지안전신문",
+   "제목": "세계 원자력 운송 규칙 다시 짠다…SMR·핵연료 공급망 안전, 싱가포르서 집중 논의",
+   "핵심 키워드": "",
+   "관련국가": "싱가포르",
+   "원문링크": "https://www.esnews.kr/news/articleView.html?idxno=7004",
+   "원문 요약": ""
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.27",
+   "매체명": "World Nuclear News",
+   "제목": "Korea's Kori 3 and 4 set for restarts in 2027",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://world-nuclear-news.org/articles/koreas-kori-3-and-4-get-go-ahead-to-restart",
+   "원문 요약": "Korea Hydro & Nuclear Power has been given approval by South Korea's Nuclear Safety and Security Commission to continue operating Kori Nuclear Power Plant’s unit 3 and 4 for a further 10 years."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.27",
+   "매체명": "World Nuclear News",
+   "제목": "NVIDIA to consider data centres at former German nuclear sites",
+   "핵심 키워드": "",
+   "관련국가": "독일",
+   "원문링크": "https://world-nuclear-news.org/articles/nvidia-to-consider-data-centres-at-former-german-nuclear-sites",
+   "원문 요약": "Germany's PreussenElektra and multinational technology company NVIDIA are to explore whether PreussenElektra's former nuclear power plant sites are suitable for the construction of so-called AI factories."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.27",
+   "매체명": "World Nuclear News",
+   "제목": "Singapore looks to develop nuclear energy expertise",
+   "핵심 키워드": "",
+   "관련국가": "싱가포르",
+   "원문링크": "https://world-nuclear-news.org/articles/singapore-looks-to-develop-nuclear-energy-workforce",
+   "원문 요약": "The Ministry of Energy, Trade and Industry and the Energy Market Authority of Singapore have launched schemes to develop \"a strong pipeline of local expertise in nuclear energy\"."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.27",
+   "매체명": "World Nuclear News",
+   "제목": "Cross-party interest in Australian nuclear future, poll suggests",
+   "핵심 키워드": "",
+   "관련국가": "호주",
+   "원문링크": "https://world-nuclear-news.org/articles/cross-party-interest-in-australian-nuclear-future-poll-suggests",
+   "원문 요약": "A YouGov poll commissioned by grassroots organisation Nuclear for Australia suggests that almost two-thirds of Australians believe nuclear should be considered as part of the nation's energy future."
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.28",
+   "매체명": "연합뉴스",
+   "제목": "한국서 첫 IAEA 원자력 장관회의…SMR 안전개발·실증 추진",
+   "핵심 키워드": "",
+   "관련국가": "국제기구",
+   "원문링크": "https://www.yna.co.kr/view/AKR20261026126251017?input=1195m",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.28",
+   "매체명": "조선일보",
+   "제목": "원자력안전위, 고리 3·4호기 수명 10년 연장 허가",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.chosun.com/economy/science/2026/10/27/PEKQCKQO2JBATA3XLBZQ3C57M4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.28",
+   "매체명": "연합뉴스",
+   "제목": "한수원 \"고리3·4호기, 내년 상반기 순차 재가동…안전 최우선\"",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.yna.co.kr/view/AKR20261027172000003?input=1195m",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.28",
+   "매체명": "조선일보",
+   "제목": "'원전 르네상스' 온다는데 설계할 사람이 없다… \"인력 3배 더 필요\"",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.chosun.com/economy/industry-company/2026/10/28/3AUOE427KBFMZIPACZ574PNEXY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.28",
+   "매체명": "뉴시스",
+   "제목": "\"美는 원전 확대 서두르는데…\" 韓, 공론화에 발목 잡혀 '공회전'만",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://www.newsis.com/view/NISX20261027_0003843502?utm_source=chatgpt.com",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.28",
+   "매체명": "전자신문",
+   "제목": "한·영 원자력 연구기관, SMR·차세대 원자로 공동 연구 협력",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.etnews.com/20261027000451",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.28",
+   "매체명": "기후에너지데이터뱅크",
+   "제목": "경주에 원전 공급망 집결…대형부터 SMR까지 핵심 된 K-원전",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://edata.ekn.kr/article/view/ekn202610270003",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.28",
+   "매체명": "동아일보",
+   "제목": "현대엔지니어링, 美 4세대 원전 실증사업 참여 추진…NNE·ARC와 협약",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://www.donga.com/news/Economy/article/all/20261027/134918689/1",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.28",
+   "매체명": "에너지안전신문",
+   "제목": "원전 수출 경쟁력, ‘품질보증’에서 갈린다…원자력산업협회, 전문인력 양성 나선다",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.esnews.kr/news/articleView.html?idxno=7022",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.10.28",
+   "매체명": "전자신문",
+   "제목": "韓, 원전 글로벌 리더십 세우자",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.etnews.com/20261027000389",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.10.28",
+   "매체명": "한국일보",
+   "제목": "고리 원전 3·4호기 재가동 불가피하나 안전문제 없어야",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.hankookilbo.com/news/article/A2026102716470004538",
+   "원문 요약": ""
+  },
+  {
+   "구분": "세계기사",
+   "보도일자": "2026.10.28",
+   "매체명": "연합뉴스",
+   "제목": "IAEA \"이란, 피격 핵시설 복구정황 없어\"…안보리 보고",
+   "핵심 키워드": "",
+   "관련국가": "이란",
+   "원문링크": "https://www.yonhapnewstv.co.kr/news/AKR202610280843530lJ",
+   "원문 요약": ""
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.28",
+   "매체명": "World Nuclear News",
+   "제목": "Nuclear fuel delivered for Bangladesh's second unit",
+   "핵심 키워드": "",
+   "관련국가": "러시아",
+   "원문링크": "https://world-nuclear-news.org/articles/nuclear-fuel-delivered-for-bangladeshs-second-unit",
+   "원문 요약": "Russia's state nuclear corporation Rosatom says that the initial fuel load for Rooppur Nuclear Power Plant's second unit has been delivered."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.28",
+   "매체명": "World Nuclear News",
+   "제목": "Hyundai Engineering agrees to cooperate with US SMR developers",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://world-nuclear-news.org/articles/hyundai-engineering-agrees-to-cooperate-with-us-smr-developers",
+   "원문 요약": "South Korea's Hyundai Engineering is aiming to establish a role in the global small modular reactor market by signing memorandums of understanding with US SMR developers NANO Nuclear Energy and ARC Clean Technology."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.28",
+   "매체명": "World Nuclear News",
+   "제목": "US government loan to support Constellation uprates",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://world-nuclear-news.org/articles/us-government-loan-to-support-constellation-uprates",
+   "원문 요약": "US utility Constellation has secured a conditional loan commitment of up to USD5 billion from the Department of Energy's Office of Energy Dominance Financing towards uprates and modernisation projects across its nuclear power reactor fleet in Illinois, Maryland, and Pennsylvania."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.28",
+   "매체명": "World Nuclear News",
+   "제목": "Nuclear is Ethiopia's next chapter, PM says",
+   "핵심 키워드": "",
+   "관련국가": "",
+   "원문링크": "https://world-nuclear-news.org/articles/nuclear-is-ethiopias-next-chapter-pm-says",
+   "원문 요약": "Ethiopia's next chapter is about transforming its immense potential and abundant natural resources into tangible development, technological advancement, and shared prosperity, the country's Prime Minister Abiy Ahmed Ali said as he visited the Ethiopian Nuclear Energy Commission."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.28",
+   "매체명": "World Nuclear News",
+   "제목": "Togo signs nuclear energy MoU with Rosatom",
+   "핵심 키워드": "",
+   "관련국가": "러시아",
+   "원문링크": "https://world-nuclear-news.org/articles/togo-signs-nuclear-energy-mou-with-rosatom",
+   "원문 요약": "The Ministry of Energy of Togo has signed a memorandum of understanding with Russia's state nuclear corporation Rosatom to assess opportunities for implementing nuclear power projects."
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.29",
+   "매체명": "경북매일",
+   "제목": "경북도 ‘2026 국제 원자력 수출 및 안전 콘펙스 개막",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.kbmaeil.com/article/20261028500448",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.29",
+   "매체명": "머니투데이",
+   "제목": "[SEP 2026]\"AI 전력원 '대형 원전'만으론 어려워, SMR 빠르게 늘 것\"",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.mt.co.kr/industry/2026/10/28/2026102815553166044",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.29",
+   "매체명": "머니투데이",
+   "제목": "'\"軍, 태양광 넘어 수소·원자력 활용해야\"…에너지 안보 지키려면",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.mt.co.kr/industry/2026/10/28/2026102815274839484",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.29",
+   "매체명": "노컷뉴스",
+   "제목": "원자력연, '육군 차세대 에너지 정책' 다자간 업무협약 체결",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.nocutnews.co.kr/news/6598541?utm_source=naver&utm_medium=article&utm_campaign=20261028025735",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.29",
+   "매체명": "서울경제",
+   "제목": "한전원자력연료, ‘2026 공공기관 AI 혁신 챌린지’ AI 혁신상 수상",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.sedaily.com/article/20107233?ref=naver",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.29",
+   "매체명": "연합뉴스",
+   "제목": "경남 SMR 기업 5곳에 원전 성장펀드 330억 투자…사업 확대 지원",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.yna.co.kr/view/AKR20261027132900052?input=1195m",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.29",
+   "매체명": "글로벌이코노믹",
+   "제목": "‘바이오플러스-인터펙스 코리아 2026’ 개막…방사성의약품 글로벌 진출 전략 조명",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.g-enews.com/article/Bio-Pharma/2026/10/202610281432516080b065b72042_1",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.29",
+   "매체명": "뉴시스",
+   "제목": "‘월성원전 건식저장 사용후핵연료·방폐물보상’ 현실화 촉구",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.newsis.com/view/NISX20261028_0003844876",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.10.29",
+   "매체명": "조선일보",
+   "제목": "너무 길고 '트집 잡기'식, 원전 연장 심사 대폭 간소화해야",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.chosun.com/opinion/editorial/2026/10/29/CDAAV2XKXVG4THHITKA7ZN42JY/",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.10.29",
+   "매체명": "한국경제",
+   "제목": "AI 시대 청정 기저전원, 원자력발전",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.hankyung.com/article/2026102815271",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.10.29",
+   "매체명": "문화일보",
+   "제목": "‘한국형 핵잠 사업’ 성공 위한 ‘핵잠 특별법’에 꼭 담아야 할 세 가지 안전장치",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.munhwa.com/article/11627012?ref=naver",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.10.29",
+   "매체명": "머니투데이",
+   "제목": "세계는 원전 확산 흐름, 한국도 속도 내야",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.mt.co.kr/opinion/2026/10/29/2026102816043470916",
+   "원문 요약": ""
+  },
+  {
+   "구분": "세계기사",
+   "보도일자": "2026.10.29",
+   "매체명": "연합뉴스",
+   "제목": "日법원 \"도쿄전력, 후쿠시마 원전 피해주민 212명에 5억원 배상\"",
+   "핵심 키워드": "",
+   "관련국가": "일본",
+   "원문링크": "https://www.yna.co.kr/view/AKR20261028152500009?input=1195m",
+   "원문 요약": ""
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.29",
+   "매체명": "World Nuclear News",
+   "제목": "KHNP ends negotiations with construction consortium for Czech units",
+   "핵심 키워드": "",
+   "관련국가": "체코",
+   "원문링크": "https://world-nuclear-news.org/articles/khnp-ends-negotiations-with-construction-consortium-czech-units",
+   "원문 요약": "Korea Hydro & Nuclear Power is to select a new contractor for the construction of two APR1000 reactors at the Czech Republic's Dukovany nuclear power plant following the collapse of contract negotiations with the Daewoo-Doosan consortium."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.29",
+   "매체명": "World Nuclear News",
+   "제목": "Germany narrows search for radioactive waste repository location",
+   "핵심 키워드": "",
+   "관련국가": "독일",
+   "원문링크": "https://world-nuclear-news.org/articles/germany-narrows-search-for-radioactive-waste-repository-location",
+   "원문 요약": "The Federal Company for Radioactive Waste Disposal said that in the past year it has reduced the area that it is considering in the site selection procedure for Germany's planned high-level radioactive waste repository from 25% of the country's territory to less than 5%."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.29",
+   "매체명": "World Nuclear News",
+   "제목": "Antares, BWXT in TRISO fuel procurement deal",
+   "핵심 키워드": "",
+   "관련국가": "",
+   "원문링크": "https://world-nuclear-news.org/articles/antares-bwxt-in-triso-procurement-deal",
+   "원문 요약": "The commercial agreement covers an initial tonne of TRISO fuel for Antares Nuclear's microreactors, which could be increased as deployment requirements evolve to support Antares's advanced reactor programme."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.29",
+   "매체명": "World Nuclear News",
+   "제목": "Westinghouse to conduct key study for AP1000 in Slovakia",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://world-nuclear-news.org/articles/westinghouse-to-conduct-key-study-to-prepare-for-ap1000-in-slovakia",
+   "원문 요약": "Westinghouse is to carry out a Front-End Engineering and Design study for the potential deployment of an AP1000 reactor at the Bohunice Nuclear Power Plant in the Slovak Republic."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.29",
+   "매체명": "World Nuclear News",
+   "제목": "Turkish oil refiner to consider SMR deployment",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://world-nuclear-news.org/articles/turkish-oil-refiner-to-consider-smr-deployment",
+   "원문 요약": "TÜPRAŞ, Turkey's largest crude oil refiner, has signed an agreement with the US Trade and Development Agency to fund technical assistance to assess the potential of small modular reactors to supply electricity, heat and steam for its refining processes."
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.30",
+   "매체명": "뉴시스",
+   "제목": "'영덕 신규 원전' 부지 확정 절차 돌입…내년 전원개발사업 예정구역 지정",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.newsis.com/view/NISX20261029_0003846590",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.30",
+   "매체명": "연합뉴스",
+   "제목": "산업부 장관, 체코 원전 시공 계약 불발에 \"한수원 판단 존중\"",
+   "핵심 키워드": "",
+   "관련국가": "체코",
+   "원문링크": "https://www.yna.co.kr/view/AKR20261029104800003?input=1195m",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.30",
+   "매체명": "연합뉴스",
+   "제목": "전기본 위한 원전 공론, '공정·중립' 위해 외부 전문가가 평가",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.yna.co.kr/view/AKR20261029076300530?input=1195m",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.30",
+   "매체명": "연합뉴스",
+   "제목": "세계 62개국 모인 원자력 장관회의 폐막…SMR·AI 활용 논의",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.yna.co.kr/view/AKR20261029172700017?input=1195m",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.30",
+   "매체명": "전기신문",
+   "제목": "농축·재처리부터 美 원전 8기까지…경주에 모인 원자력계",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://www.electimes.com/news/articleView.html?idxno=374104",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.30",
+   "매체명": "에너지데일리",
+   "제목": "‘방사선진흥협회, 원자력 분야 차세대리더육성사업 학술발표회 개최",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.energydaily.co.kr/news/articleView.html?idxno=204520",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.30",
+   "매체명": "대경일보",
+   "제목": "한국수력원자력, 공공기관 AI 혁신성과 대회 ‘AI혁신상’ 수상",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.dkilbo.com/news/articleView.html?idxno=558905",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.30",
+   "매체명": "머니투데이",
+   "제목": "두산에너빌리티, 美 뉴스케일파워 SMR 첫 원자로 제작 계약 체결",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://www.mt.co.kr/industry/2026/10/29/2026102914043235714",
+   "원문 요약": ""
+  },
+  {
+   "구분": "국내기사",
+   "보도일자": "2026.10.30",
+   "매체명": "전자신문",
+   "제목": "원자력연, '의료용 동위원소' 국가 가치사슬 구축한다",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.etnews.com/20261029000228",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.10.30",
+   "매체명": "서울경제",
+   "제목": "체코 원전 ‘팀코리아’ 균열…K원전 신뢰 훼손은 막아야",
+   "핵심 키워드": "",
+   "관련국가": "체코",
+   "원문링크": "https://www.sedaily.com/article/20107950?ref=naver",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.10.30",
+   "매체명": "서울신문",
+   "제목": "두코바니 원전 수난사",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.seoul.co.kr/news/editOpinion/weft-column/2026/10/30/20261030027004?wlog_tag3=naver",
+   "원문 요약": ""
+  },
+  {
+   "구분": "사설/칼럼/기고",
+   "보도일자": "2026.10.30",
+   "매체명": "문화일보",
+   "제목": "AI 시대 ‘원전 규제’ 4대 혁신 급하다",
+   "핵심 키워드": "",
+   "관련국가": "한국",
+   "원문링크": "https://www.munhwa.com/article/11627230",
+   "원문 요약": ""
+  },
+  {
+   "구분": "세계기사",
+   "보도일자": "2026.10.30",
+   "매체명": "연합뉴스",
+   "제목": "후쿠시마 원전 주변 어업 자제 해역 축소…반경 10㎞→7㎞",
+   "핵심 키워드": "",
+   "관련국가": "",
+   "원문링크": "https://www.yna.co.kr/view/AKR20261029208400073?input=1195m",
+   "원문 요약": ""
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.30",
+   "매체명": "World Nuclear News",
+   "제목": "Centrus ships first centrifuge for Piketon plant expansion",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://world-nuclear-news.org/articles/centrus-ships-first-centrifuge-for-piketon-plant-expansion",
+   "원문 요약": "Centrus Energy's manufacturing plant in Oak Ridge, Tennessee, has despatched the first new centrifuge as part of the company's multibillion-dollar expansion of its uranium enrichment capacity in Piketon, Ohio."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.30",
+   "매체명": "World Nuclear News",
+   "제목": "Framatome inaugurates chromium-coating facility",
+   "핵심 키워드": "",
+   "관련국가": "프랑스",
+   "원문링크": "https://world-nuclear-news.org/articles/framatome-inaugurates-chromium-coating-facility",
+   "원문 요약": "Framatome has inaugurated a chromium-coating industrial pilot facility dedicated to the industrialisation of its PROtect Enhanced Accident Tolerant Fuel technology at its manufacturing plant in Paimboeuf in western France."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.30",
+   "매체명": "World Nuclear News",
+   "제목": "Floating nuclear power plant 'has boosted air quality'",
+   "핵심 키워드": "",
+   "관련국가": "러시아",
+   "원문링크": "https://world-nuclear-news.org/articles/floating-nuclear-power-plant-has-boosted-air-quality",
+   "원문 요약": "An environmental monitoring report for Russia's floating nuclear power plant suggests that emissions have fallen almost 80% since it started supplying heating in the area in 2022."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.30",
+   "매체명": "World Nuclear News",
+   "제목": "Cernavoda units remain shut down due to Danube water levels",
+   "핵심 키워드": "",
+   "관련국가": "루마니아",
+   "원문링크": "https://world-nuclear-news.org/articles/cernavoda-units-remain-offline-due-to-danube-water-levels",
+   "원문 요약": "Romania's Nuclearelectrica says that although there has been a recent rise in the local water level in the River Danube, current forecasts do not yet support a decision to restart the units."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.30",
+   "매체명": "World Nuclear News",
+   "제목": "Doosan to manufacture upper reactor vessel for NuScale SMR",
+   "핵심 키워드": "",
+   "관련국가": "미국",
+   "원문링크": "https://world-nuclear-news.org/articles/doosan-to-manufacture-upper-reactor-vessel-for-nuscale-smr",
+   "원문 요약": "US small modular reactor developer NuScale Power has signed a contract with South Korea's Doosan Enerbility to manufacture an upper reactor coolant system for the NuScale Power Module."
+  },
+  {
+   "구분": "WNN",
+   "보도일자": "2026.10.30",
+   "매체명": "World Nuclear News",
+   "제목": "<i>Game of Thrones</i> actor aims to highlight Chernobyl's need for international support",
+   "핵심 키워드": "",
+   "관련국가": "",
+   "원문링크": "https://world-nuclear-news.org/articles/game-of-thrones-actor-aims-to-highlight-chernobyls-need-for-international-support",
+   "원문 요약": "Danish actor and United Nations Goodwill Ambassador Nikolaj Coster-Waldau has visited the Chernobyl nuclear power plant site, for a project which \"aims to draw international attention to the need for support in restoring the New Safe Confinement, protecting the environment and ensuring radiation safety\"."
+  }
+ ]
+}
